@@ -1,0 +1,23 @@
+.custom-table-style {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px 10px 10px 10px ;
+    overflow: hidden;
+}
+
+.custom-table-style th,
+.custom-table-style td {
+    border: 1.5px solid rgba(245, 244, 244, 0.62);
+    padding: 8px;
+    text-align: left;
+}
+
+.custom-table-style th {
+    background-color: #564953;
+    color: white;
+
+}
+
+.custom-table-style tbody tr {
+    background-color: #ffffff;
+}

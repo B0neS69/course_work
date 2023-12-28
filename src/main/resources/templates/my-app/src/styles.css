@@ -1,0 +1,99 @@
+body {
+    background-color: #F8F1FF;
+    font-family: Helvetica, serif;
+}
+
+.login-component {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.logo-login-page img{
+    width: 100px;
+    margin-top: 50px;
+}
+
+.logo-login-page{
+
+    width: 100px;
+    margin: auto;
+}
+
+.header-login {
+    position: fixed;
+    display: flex;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 72px;
+}
+
+.login-component input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-component button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    background-color: #1B998B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.login-component button:hover {
+    background-color: #57C5B6;
+}
+
+.additional-info-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.additional-info-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.additional-info-form input,
+.additional-info-form select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.additional-info-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1B998B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.additional-info-form button:hover {
+    background-color: #57C5B6;
+}
